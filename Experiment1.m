@@ -150,6 +150,6 @@ function Materials = calc_area(x, y, A)
     % Materials.BrittleRate = Materials.area_brittle/A*100;
     Materials.DuctileRate = Materials.area_ductile/A*100;
     Materials.BrittleRate = 100 - Materials.DuctileRate;
-    figure
-    plot(x,y,"Color",'red')
+    % figure
+    % plot(x,y,"Color",'red')
 end
